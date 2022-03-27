@@ -1,2 +1,2 @@
 # Palindrome
-Simple is Palindrome program
+It's simple Palindrome program.
