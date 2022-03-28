@@ -24,4 +24,24 @@ public class Palindrome {
 			
 		return reverse;
 	}
+	
+	public static boolean isPalindromeFraze(String fraze) {
+		
+		if(fraze.contains(","))
+			fraze = fraze.replaceAll(",", "");
+		
+		String [] frazeArray;
+		String newFraze = "";
+		
+		frazeArray = fraze.split(" ");
+		
+		for(String fr : frazeArray) {
+			
+			newFraze = newFraze.concat(fr);
+		}
+		
+		return isPalindrome(newFraze);
+		
+		
+	}
 }

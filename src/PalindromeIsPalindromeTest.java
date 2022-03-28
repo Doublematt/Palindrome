@@ -49,6 +49,23 @@ class PalindromeIsPalindromeTest {
 		
 		//then
 		Assertions.assertEquals(true, resault);
+		
 	}
 
+	@Test
+	void isPalindrome_numbersPalindrome_true() {
+		
+		//given
+		String word = "123321";
+		
+		//when
+		boolean resault = Palindrome.isPalindrome(word);
+		
+		//then
+		Assertions.assertEquals(true, resault);
+		
+		
+	}
+	
+	
 }
