@@ -3,16 +3,16 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-class PalindromeisPalindromeFrazeTest {
+class PalindromeisPalindromePhrazeTest {
 
 	@Test
-	void isPalindromeFraze_palindromeFraze_true() {
+	void isPalindromePhraze_palindromePhraze_true() {
 		
 		//given
 		String fraze = "never odd or even";
 		
 		//when
-		boolean resault = Palindrome.isPalindromeFraze(fraze);
+		boolean resault = Palindrome.isPalindromePhraze(fraze);
 		
 		//then
 		Assertions.assertEquals(true, resault);
@@ -21,26 +21,26 @@ class PalindromeisPalindromeFrazeTest {
 	}
 
 	@Test
-	void isPalindromeFraze_FrazeWithInterpunction_true() {
+	void isPalindromePhraze_PhrazeWithInterpunction_true() {
 		
 		//given
 		String fraze = "red rum, sir, is murder";
 		
 		//when
-		boolean resault = Palindrome.isPalindromeFraze(fraze);
+		boolean resault = Palindrome.isPalindromePhraze(fraze);
 		
 		//then
 		Assertions.assertEquals(true, resault);
 	}
 	
 	@Test
-	void isPalindromeFraze_NotAPalindromeFraze_false() {
+	void isPalindromePhraze_NotAPalindromePhraze_false() {
 		
 		//given
 		String fraze = "Hello world, bye world";
 		
 		//when
-		boolean resault = Palindrome.isPalindromeFraze(fraze);
+		boolean resault = Palindrome.isPalindromePhraze(fraze);
 		
 		//then
 		Assertions.assertEquals(false, resault);
