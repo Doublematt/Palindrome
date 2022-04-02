@@ -4,11 +4,11 @@ It's simple Palindrome program with GUI. It lets user enter the word or sentence
 
 ## Table of contents
 
-* [General info] (#general-info)
-* [Technologies] (#technologies) 
-* [Setup] (#setup)
-* [Goal of project] (#goal-of-project)
-* [Palindrome class methods] (#palindrome-class-methods)
+* [General info](#general-info)
+* [Technologies](#technologies) 
+* [Setup](#setup)
+* [Goal of project](#goal-of-project)
+* [Palindrome class methods](#palindrome-class-methods)
 
 ## General info
 
