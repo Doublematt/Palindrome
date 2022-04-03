@@ -53,6 +53,7 @@ public class Palindrome {
 	 * method used to tell if a Phraze is palindrome
 	 * works also for single word
 	 * uses method isPalindrome
+	 * returns boolean
 	 */
 	public static boolean isPalindromePhraze(String fraze) {
 		
